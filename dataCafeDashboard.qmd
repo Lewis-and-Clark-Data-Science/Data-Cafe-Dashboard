@@ -1,0 +1,65 @@
+--- 
+title: "Data Cafe Dashboard"
+author: "Dianara Sagastizado"
+format: dashboard
+params:
+  month: "November 4"
+  year: "2024"
+---
+
+```{r}
+#| label: load-packages
+#| message: false
+
+library(tidyverse)
+```
+
+```{r}
+#| label: set-inputs
+
+time_period <- paste(params$month, params$year)
+```
+
+#   {.sidebar}
+
+Data Cafe tutor schedule as of `{r} time_period`:
+
+|       From 4-5          |     |
+|-------------------------|-----|
+| **Tova Benson**         | Day |
+| **Maggie Giardello**    | Day |
+| **Isabella Moore**      | Day |
+| **Thoan Nguyen**        | Day |
+| **Dianara Sagastizado** | Day |
+------------------------------------------------------------------------
+
+## Row {height=30%}
+
+```{r}
+#| label: popular-date-and-time
+#| 
+```
+
+```{r}
+#| label: visitors-this-week
+#| 
+```
+
+```{r}
+#| label: popular-course-this-week
+```
+
+## Row {.tabset}
+
+```{r}
+#| label: weeky-popular-shifts
+
+```
+
+```{r}
+#| label: students-over-time
+```
+
+```{r}
+#|label: course-frequency
+```
