@@ -24,42 +24,57 @@ time_period <- paste(params$month, params$year)
 
 Data Cafe tutor schedule as of `{r} time_period`:
 
-|       From 4-5          |     |
-|-------------------------|-----|
-| **Tova Benson**         | Day |
-| **Maggie Giardello**    | Day |
-| **Isabella Moore**      | Day |
-| **Thoan Nguyen**        | Day |
-| **Dianara Sagastizado** | Day |
-------------------------------------------------------------------------
+| 4-5pm    |                         |
+|----------|-------------------------|
+| Sunday   | **Thoan Nguyen**        |
+| Monday   | **Dianara Sagastizado** | 
+| Tuesday  | **Tova Benson**         |
+| Wednesday| **Thoan Nguyen**        | 
+| Thursday | **Thoan Nguyen**        |
+| Friday   | **Tova Benson**         |
+
+
+| 8-9pm    |                         |
+|----------|-------------------------|
+| Sunday   | **Maggie Giardello**    |
+| Monday   | **Maggie Giardello**    | 
+| Tuesday  | **Isabella Moore**      |
+| Wednesday| **Tova Benson**         | 
+| Thursday | **Isabella Moore**      |
+| Friday   | **Dianara Sagastizado** |
+
 
 ## Row {height=30%}
 
 ```{r}
 #| label: popular-date-and-time
-#| 
+#| title: "Popular day of the week and time"
 ```
 
 ```{r}
 #| label: visitors-this-week
-#| 
+#| title: "Visitors this week"
 ```
 
 ```{r}
 #| label: popular-course-this-week
+#| title: "Popular course"
 ```
 
 ## Row {.tabset}
 
 ```{r}
 #| label: weeky-popular-shifts
+#| title: "Popular shift throughout the week"
 
 ```
 
 ```{r}
 #| label: students-over-time
+#| title: "Students attending data cafe throughout semester"
 ```
 
 ```{r}
 #|label: course-frequency
+#|title: "Course frequencies throughout semester"
 ```
